@@ -1,0 +1,48 @@
+.tomatto{
+    animation: rotation 2.5s infinite linear;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.leef {
+    animation: leef 2s infinite linear;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+
+@keyframes leef {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.mashroom{
+    animation: mashroom 2s infinite linear;
+}
+
+@keyframes mashroom {
+    0% {
+        transform: translateX(0.5rem);
+    }
+
+    50% {
+        transform: translateX(-0.5rem);
+    }
+
+    100% {
+        transform: translateX(0.5rem);
+    }
+}

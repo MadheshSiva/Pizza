@@ -1,0 +1,10 @@
+.background-wave {
+   background-color: #dfe8e1;
+   height: 12rem;
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+    position: relative; /* Ensure the SVG stays on top of the wave */
+  }

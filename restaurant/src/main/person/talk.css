@@ -1,0 +1,15 @@
+.drawing{
+    animation: chilly 2s infinite linear;
+}
+
+@keyframes chilly{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(18deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
